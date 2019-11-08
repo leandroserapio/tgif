@@ -1,0 +1,98 @@
+body{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav{
+    padding: 0 !important;
+}
+
+a{
+    padding: 0;
+}
+
+header{
+    margin: 10px 0 25px 0;
+}
+
+.contenido h2{
+    margin-top: 40px !important;
+}
+
+.contenido h3{
+    margin-top: 50px !important;
+}
+
+.links_nav:hover {
+    background-color: rgb(190, 190, 184);
+}
+
+.nav-link.links_nav:hover{
+    background-color: rgb(190, 190, 184);
+    border-radius: 8px 0 0 8px;
+}
+
+.email{
+    padding: 15px;
+}
+
+.email img{
+    max-height: 18px;
+    vertical-align: text-bottom;
+}
+
+.links_nav{
+    padding: 15px 20px !important;
+}
+
+.nav_menu{
+    border-radius: 8px;
+    border: 1px solid #dadada;
+}
+
+.tabla{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contenido p{
+    margin-top: 25px !important;
+    width: 80%;
+}
+
+td{
+    padding: 10px 15px 10px 0 !important;
+
+}
+
+.imagen_logo{
+    max-height: 130px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+th{
+    padding: 10px 15px 10px 0!important;
+}
+
+.dropdown button{
+    height: 100%;
+    border-radius: 0;
+}
+
+.elfooter {
+    height: auto;
+    margin: 50px 0 25px 0;
+    border: 1px solid #dadada;
+}
+
+.elfooter p{
+    padding: 24px;
+    margin: 0;
+}
+
+.btn.navbar-toggler{
+    border: none;
+}

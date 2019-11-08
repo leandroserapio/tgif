@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>House Data</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       
+    </head>
+    
+    <body>     
+
+        <header class="container-fluid">            
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="imagen_logo" src="images/LOGOTGIF.jpg" alt="Logo">
+                </div>
+                <div class="col-sm-6 text-right">
+                    <div class="email">
+                        <a href="mailto:info@tgif.net">
+                            <img src="images/email.png" alt="email icon">
+                            info@tgif.net</a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </header>
+
+    
+        <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light nav_menu">
+                    <button class="btn navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link links_nav" href="home-starter-page.html">Home</a>
+                            </li>
+                            <div class="dropdown">
+                                <button class="btn links_nav  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Congress 113
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <a class="dropdown-item links_nav" href="house-starter-page.html">House</a>
+                                    <a class="dropdown-item links_nav" href="senate-starter-page.html">Senate</a>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                    <button class="btn links_nav  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Anttendance
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <a class="dropdown-item links_nav" href="house-attendance.html">House</a>
+                                        <a class="dropdown-item links_nav" href="senate-attendance.html">Senate</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="btn links_nav  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Party Localy
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                        <a class="dropdown-item links_nav" href="house-party-loyalty.html">House</a>
+                                        <a class="dropdown-item links_nav" href="senate-party-loyalty.html">Senate</a>
+                                    </div>
+                                </div>
+                          </ul>
+                        </div>
+                    </nav>
+                    </div>
+
+        <!--Table container-->
+        
+        <div class="container-fluid contenido">
+            <div class="col">
+
+                <h2>Congressmen</h2>
+                <p>The major power of the House is to pass federal legislation that affects the entire country, although its bills must also be passed by the Senate and further agreed to by the U.S. President before becoming law (unless both the House and Senate re-pass the legislation with a two-thirds majority in each chamber). The House has some exclusive powers: the power to initiate revenue bills, to impeach officials (impeached officials are subsequently tried in the Senate), and to elect the U.S. President in case there is no majority in the Electoral College.</p>
+                <p>Each U.S. state is represented in the House in proportion to its population as measured in the census, but every state is entitled to at least one representative.</p>  
+                <table class="table-borderless tabla">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Party</th>
+                                        <th>State</th>
+                                        <th>Years in Office</th>
+                                        <th>% Votes w/Party</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tablaHouse"></tbody>
+                            </table>
+               
+            </div>
+        </div>    
+        
+        <div class="container-fluid">
+            <div class="bg-light nav_menu elfooter text-center">
+                <p>© 2019 TIGF | All Right Reserved</p>
+            </div>
+        </div>
+
+        <script src="pro-congress-113-house.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
